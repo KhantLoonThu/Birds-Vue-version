@@ -13,7 +13,8 @@ const router = createRouter({
         {
             path: '/detail:id',
             name: "BirdsDetail",
-            component: BirdsDetail
+            component: BirdsDetail,
+            props: true
         }
     ]
 })
